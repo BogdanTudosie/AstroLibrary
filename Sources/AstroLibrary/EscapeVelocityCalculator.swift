@@ -8,9 +8,9 @@
 import Foundation
 
 public struct EscapeVelocityCalculator {
-    var radius: Double
-    var gravitationalConstant: Double
-    var objectMass: Double
+    public let radius: Double
+    public let gravitationalConstant: Double
+    public let objectMass: Double
     
     public init(radius: Double, gravConstant: Double, mass: Double) {
         self.radius = radius
