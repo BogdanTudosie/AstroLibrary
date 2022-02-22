@@ -19,7 +19,7 @@ public struct EscapeVelocityCalculator {
     }
     
     // returns the escape velocity in km/second
-    func calculateEscapeVelocity() -> Double {
+    public func calculateEscapeVelocity() -> Double {
         let ve = sqrt((2 * self.gravitationalConstant * objectMass) / radius)
         return ve
     }
