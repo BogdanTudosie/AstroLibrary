@@ -7,12 +7,12 @@
 
 import Foundation
 
-public  struct EscapeVelocityCalculator {
+public struct EscapeVelocityCalculator {
     var radius: Double
     var gravitationalConstant: Double
     var objectMass: Double
     
-    init(radius: Double, gravConstant: Double, mass: Double) {
+    public init(radius: Double, gravConstant: Double, mass: Double) {
         self.radius = radius
         self.gravitationalConstant = gravConstant
         self.objectMass = mass
